@@ -1,0 +1,87 @@
+
+
+
+.container-sports {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+    padding: 20px;
+    position:relative;
+    z-index: 1;
+    margin-top: -100px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    color: white;
+}
+/* ID card styles */
+.id-card {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px; display: flex; /* Added */
+    align-items: center; /* Added */
+}
+.id-card-content {
+    flex: 1; /* Added */
+}
+
+#id-card-title{
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+/* Competition and rules section styles */
+.section {
+    margin-bottom: 30px;
+}
+
+/* Cards section styles */
+.highlight-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:30px;
+}
+.highlight-card {
+    background-color:rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    width: calc(25% - 40px); /* Adjusted width to include larger margins */
+    margin-right: 20px;
+    transition : transform 0.3s ease;
+}
+.highlight-card:hover{
+    transform: scale(1.1)
+}
+
+.highlight-container{
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    padding: 50px;
+    margin-top:30px;
+}
+
+li{
+   margin:0 20px; 
+}
+
+.venue-photo-container {
+    flex: 1;
+    text-align : right;
+    margin-left:20px;
+}
+.venue-photo {
+    max-width: 100%;
+    width: 300px;
+    height : auto;
+    object-fit: cover;
+    border-radius: 10px;
+}

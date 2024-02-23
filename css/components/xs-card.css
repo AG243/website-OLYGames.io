@@ -1,0 +1,44 @@
+.symbols {
+
+    display: flex;
+    overflow-x: auto; /* Permet le défilement horizontal */
+    padding: 20px;
+}
+
+
+.xs-card {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    margin: 20px;
+    transition: transform 0.3s;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.xs-card img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.xs-card :hover {
+    transform: scale(1.2);
+    /*filter: grayscale(80%);*/
+}
+
+
+
+.photo {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+
+
